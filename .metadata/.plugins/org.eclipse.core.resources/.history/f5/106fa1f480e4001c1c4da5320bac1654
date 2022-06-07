@@ -1,0 +1,12 @@
+package com.br.pratica06;
+
+import java.util.ArrayList;
+
+public class Arquivo {
+
+	private String filename = "C:\\Users\\cesar\\eclipse-workspace\\praticas\\pratica06\\src\\com\\br\\pratica06\\arquivo.txt";
+	
+	public ArrayList<Cliente> readFile() {
+		ArrayList<Cliente> clients = new ArrayList<Cliente>();
+	}
+}

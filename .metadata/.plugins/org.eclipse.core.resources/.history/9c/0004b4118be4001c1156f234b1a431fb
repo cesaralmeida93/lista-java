@@ -1,0 +1,23 @@
+package com.br.pratica06;
+
+import java.io.IOException;
+import java.util.ArrayList;
+
+public class Principal {
+
+	public static void main(String[] args) throws IOException {
+		
+		Cliente cliente1 = new Cliente("teste", 1, 1.1);
+		Cliente cliente2 = new Cliente("teste2", 2, 2.2);
+		Arquivo arquivo = new Arquivo();
+		ArrayList<Cliente> clientes = new ArrayList<Cliente>();
+		clientes.add(cliente1);
+		clientes.add(cliente2);
+		System.out.println(cliente1);
+		System.out.println(cliente2);
+		arquivo.addToFile(cliente1);
+		arquivo.readFile();
+
+	}
+
+}

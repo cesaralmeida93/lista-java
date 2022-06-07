@@ -1,0 +1,17 @@
+package com.br.pratica06;
+
+import java.io.IOException;
+
+public class Principal {
+
+	public static void main(String[] args) throws IOException {
+		
+		Cliente cliente1 = new Cliente("teste", 1, 1.1);
+		Cliente cliente2 = new Cliente("teste2", 2, 2.2);
+		Arquivo arquivo = new Arquivo();
+		arquivo.addToFile(cliente);
+		arquivo.readFile();
+
+	}
+
+}
